@@ -12,8 +12,7 @@
     "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
     "prepare": "copyfiles -f src/app/package.json src/app/main.js build",
     "electron": "npm run prepare && electron build",
-    "dev": "concurrent --kill-others \"npm run watch\" \"npm run electron\"  ",
-    "rebuild": "electron-rebuild -f -w electron-spellchecker"
+    "dev": "concurrent --kill-others \"npm run watch\" \"npm run electron\"  "
   },
   "author": "Gabriele Cannata",
   "license": "MIT",
@@ -55,7 +54,6 @@
     "bluebird": "^3.4.7",
     "copyfiles": "^1.0.0",
     "electron": "^1.4.14",
-    "electron-spellchecker": "^0.7.1",
     "jquery": "^3.1.1",
     "lodash": "^4.17.3",
     "reflect-metadata": "0.1.9",
