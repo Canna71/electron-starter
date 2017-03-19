@@ -1,7 +1,11 @@
 {
   "name": "electron-starter",
   "version": "0.0.1",
-  "description": "",
+  "description": "A starter project for Electron with Angular 2 and webpack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Canna71/electron-starter.git"
+  },
   "main": "index.js",
   "scripts": {
     "build": "webpack --progress --profile --colors --display-error-details --display-cached",
@@ -11,7 +15,7 @@
     "dev": "concurrent --kill-others \"npm run watch\" \"npm run electron\"  ",
     "rebuild": "electron-rebuild -f -w electron-spellchecker"
   },
-  "author": "Auth0",
+  "author": "Gabriele Cannata",
   "license": "MIT",
   "devDependencies": {
     "@types/jquery": "^2.0.34",
