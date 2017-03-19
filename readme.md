@@ -1,6 +1,8 @@
 # Electron Starter
 
 
+A starter project for Electron with Angular 2 and webpack
+
 ```bash
 npm install
 
